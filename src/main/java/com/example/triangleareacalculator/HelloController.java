@@ -1,9 +1,9 @@
 package com.example.triangleareacalculator;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -17,19 +17,23 @@ public class HelloController {
     private Label labLog;
     @FXML
     private VBox rightVBox;
+    private TextField txtA;
+    private TextField txtB;
+    private TextField txtC;
     @FXML
     void addTriangle(){
         HBox hb = new HBox();
         TextField a = new TextField();
-        a.setText("1");
+        a.setText(txtA.getText());
         hb.getChildren().add(a);
         TextField b = new TextField();
-        b.setText("1");
+        b.setText(txtB.getText());
         hb.getChildren().add(b);
         TextField c = new TextField();
-        c.setText("1");
+        c.setText(txtC.getText());
         hb.getChildren().add(c);
         Button del = new Button("Remove");
+        del.setOnAction(ActionEvent -> rightVBox.getChildren().remove(hb));
         hb.getChildren().add(del);
         rightVBox.getChildren().add(hb);
     }
@@ -53,7 +57,7 @@ public class HelloController {
     }
     @FXML
     protected void onSaveBtnClick() {
-        //welcomeText.setText("Welcome to JavaFX Application!");
+
     }
     void logPrint(String s){
         labLog.setText(labLog.getText() + s + "\n");
