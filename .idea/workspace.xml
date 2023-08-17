@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f16e3d63-4715-4071-a0cf-babe8af8f550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f16e3d63-4715-4071-a0cf-babe8af8f550" name="Changes" comment="Restore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/ObservableTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/ObservableTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/Triangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/triangleareacalculator/Triangles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/triangleareacalculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/triangleareacalculator/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +67,29 @@
       <option name="presentableId" value="Default" />
       <updated>1692212303047</updated>
     </task>
+    <task id="LOCAL-00001" summary="Restore">
+      <created>1692255819123</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692255819123</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Restore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restore" />
   </component>
 </project>
